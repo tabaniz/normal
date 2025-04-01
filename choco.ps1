@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 #Install Extensions and apps
 choco install chocolatey-core.extension, chocolateygui, chocolatey-windowsupdate.extension, brave, 7zip.install, notepadplusplus, putty.install, firefox, winrar -y -force
 
-choco install vlc, winscp.install, foxitreader, screenpresso -y -force 
+choco install vlc, winscp.install, foxitreader -y -force 
 
 #Account Lockout and management tool: troubleshoot account lockouts, as well as add functionality to Active Directory
 choco install altools -y
